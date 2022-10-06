@@ -32,7 +32,7 @@ function App() {
       <h2>Count: {state}</h2>
       <button onClick={() => setState((prev) => prev + 1)}>Update state</button>
       <button onClick={() => setBoolean((prev) => !prev)}>Show boolean</button>
-      {boolean && <h2>Boo!!</h2>}
+      {boolean && <h2>Booooo!!</h2>}
     </div>
   );
 }
