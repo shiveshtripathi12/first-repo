@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <h2>Counter</h2>
-      <h3>Demo App</h3>
+      <h3>Created Branch</h3>
       <input value={input} onChange={(e) => setInput(e.target.value)} />
       <p>{input}</p>
       <h2>Count: {state}</h2>
